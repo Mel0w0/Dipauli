@@ -1,4 +1,4 @@
-import Banner from "../components/Header/Banner/Banner.jsx";
+import Banner from "../components/Banner/Banner.jsx";
 
 function Home () {
     return (
