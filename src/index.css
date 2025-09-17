@@ -2,13 +2,24 @@
 
 html, body {
   height: 100%;
+
 }
 
 body{
     @apply bg-cover bg-center;
     background-image: url('/img/background.jpeg');
+
+    ::-webkit-scrollbar {
+      display: none;
+      }
+
+      * {
+        scrollbar-width: none;
+      }
 }
 
 @theme {
   --color-magenta:#EB1B90;
+  --font-titulos: "League Spartan", sans-serif;
+  --font-texto: "Junge", sans-serif;
 }
