@@ -8,15 +8,18 @@ html, body {
 body{
     @apply bg-cover bg-center;
     background-image: url('/img/background.jpeg');
-
+    
     ::-webkit-scrollbar {
+
       display: none;
       }
 
       * {
         scrollbar-width: none;
       }
-}
+
+};
+
 
 @theme {
   --color-magenta:#EB1B90;
